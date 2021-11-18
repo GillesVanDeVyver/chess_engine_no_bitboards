@@ -1,0 +1,5 @@
+if(EXISTS "/home/gilles/chess_engine_no_bitboards/chess_engine_no_bitboards/build/Tests/tests_tests-b12d07c.cmake")
+  include("/home/gilles/chess_engine_no_bitboards/chess_engine_no_bitboards/build/Tests/tests_tests-b12d07c.cmake")
+else()
+  add_test(tests_NOT_BUILT-b12d07c tests_NOT_BUILT-b12d07c)
+endif()
